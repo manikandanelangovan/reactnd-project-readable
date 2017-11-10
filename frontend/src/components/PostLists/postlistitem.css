@@ -1,0 +1,50 @@
+.PostItem {
+  background-color: #fff;
+  box-shadow: 0 2px 2px #ddd;
+  padding: 2rem;
+  position: relative;
+}
+
+.PostItem + .PostItem {
+  margin-top: 2rem;
+}
+
+.PostItem-title {
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.PostItem-title a {
+  color: #444;
+  text-decoration: none;
+}
+
+.PostItem-title a:hover {
+  color: #4286f4;
+}
+
+.PostItem-meta {
+  color: #ccc;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PostItem-author {
+  color: #4286f4;
+}
+
+.PostItem-delete {
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(150%);
+  width: 20px;
+}
+
+.PostItem-delete svg {
+  fill: #b50a27;
+  width: 100%;
+}

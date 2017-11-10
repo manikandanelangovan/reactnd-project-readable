@@ -1,0 +1,13 @@
+.Not-found {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.Not-found a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.Not-found a:hover {
+  text-decoration: underline;
+}

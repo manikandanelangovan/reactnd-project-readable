@@ -1,0 +1,14 @@
+.Logo {
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.Logo a {
+  color: #4286f4;
+  text-decoration: none;
+}
+
+.Logo a:hover {
+  color: #366ec9;
+}

@@ -1,0 +1,101 @@
+.Form {
+  margin-bottom: 4rem;
+}
+
+.Form-back {
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+}
+
+.Form-back svg {
+  fill: #444;
+  width: 2rem;
+  transform: rotate(0deg);
+  transition: transform 0.25s;
+}
+
+.Form-back:hover svg {
+  transform: rotate(360deg);
+}
+
+.Form-group {
+  margin-bottom: 3rem;
+}
+
+.Form-group:last-child {
+  margin-bottom: 0;
+}
+
+.Form-label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.Form textarea,
+.Form input[type="text"] {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.Form textarea:focus,
+.Form input[type="text"]:focus,
+.Form select:focus {
+  outline: none;
+  box-shadow: 0 0 2px #999;
+}
+
+.Form textarea {
+  height: 10rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.Form input[type="text"] {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.Form select {
+  font-size: 1.6rem;
+  appearance: none;
+  width: calc(100% + 3rem);
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  padding: 1rem;
+}
+
+.Form-select {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+
+.Form-select::after {
+  border-style: solid;
+  content: '';
+  display: block;
+  height: 0;
+  right: 1.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 0;
+  border-color: #C4C4C4 transparent transparent transparent;
+  border-width: 8px 6px 0 6px;
+}
+
+.Form-error {
+  color: #CB1D33;
+  font-size: 1.2rem;
+  padding: 1rem;
+}

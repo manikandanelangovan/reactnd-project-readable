@@ -1,0 +1,151 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html,
+body,
+p,
+ul,
+li,
+fieldset,
+legend,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+button:focus {
+  outline:0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  background-color: #d1ddf1;
+  color: #444;
+  display: flex;
+  font-family: 'Lato', sans-serif;
+}
+
+.Root {
+  min-width: 740px;
+}
+
+.Root,
+.Container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 4rem;
+  position: relative;
+}
+
+.Left {
+  width: 25%;
+}
+
+.Main {
+  width: 50%;
+}
+
+.Rounded {
+  border-radius: 50%;
+  border: 3px solid #444;
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  margin: 0;
+  position: relative;
+  width: 50px;
+}
+
+.Rounded svg {
+  fill: #444;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  transition: width 0.25s;
+}
+
+.Rounded:hover svg {
+  width: 60%;
+}
+
+.Add-post,
+.Add-comment {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.Link {
+  background-color: transparent;
+  border: 0;
+  color: #4286f4;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Lato';
+  font-size: 1.2rem;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}
+
+.Link + .Link {
+  margin-left: 1rem;
+}

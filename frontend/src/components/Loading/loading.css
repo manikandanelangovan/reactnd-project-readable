@@ -1,0 +1,22 @@
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Loading {
+  left: 50%;
+  position: absolute;
+  top: calc(50% + 5rem);
+  transform: translate(-50%, -50%);
+  width: 100px;
+}
+
+.Loading svg {
+  animation: rotating 1.5s linear infinite;
+  fill: #4286f4;
+}

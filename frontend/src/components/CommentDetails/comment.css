@@ -1,0 +1,26 @@
+.Comment {
+  position: relative;
+}
+
+.Comment + .Comment {
+  margin-top: 2.5rem;
+}
+
+.Comment-body {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.Comment-meta {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.Comment .Score-button {
+  height: 20px;
+  width: 20px;
+}
+
+.Comment .Score-votes {
+  font-size: 1.5rem;
+}

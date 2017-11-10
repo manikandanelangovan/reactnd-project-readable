@@ -1,0 +1,27 @@
+.Post-title {
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+
+.Post-body {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.Post-meta {
+  color: #848181;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.Post-meta span {
+  color: #4286f4;
+}
+
+.Post-links {
+  margin-bottom: 3rem;
+}
+
+.Post-comments {
+  font-size: 1.6rem;
+}

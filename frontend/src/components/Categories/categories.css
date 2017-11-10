@@ -1,0 +1,17 @@
+.Categories {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Categories a {
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 1;
+  text-decoration: none;
+  color: #ddd;
+}
+
+.Categories a.is-active {
+  color: #444;
+}
